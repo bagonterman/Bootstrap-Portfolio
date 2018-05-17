@@ -3,10 +3,10 @@
      background-image: url("../../portfolio-Background.png");
    
 } I can't figure this out*/
-body{
+/* body{
     display: flex;
     flex-direction: column;
-}
+} */
 
 .myHeader{
     /* display: block; */
@@ -56,7 +56,8 @@ font-weight: bold;
 }
 .aboutMeBox{
     background-color:#ffffff; 
-    height:500px;
+    /* height:500px; */
+    height:100%;
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 50px;
@@ -178,15 +179,16 @@ p{
     background-color:#777777;
     height: 50px;
     margin-top:60px;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
     /* position: absolute; */
 }
 .bar-p{
     /* position: relative; */
     background-color:#4aaaa5;
     height: 6px;
+    /* width:100%; */
     margin-top:-50px;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
 }
 .enterContact{
     /* margin: auto; */
@@ -203,7 +205,12 @@ input.inputs{
   width: 90%;
 } 
 textarea{
+    /* width: 90%;
+    padding:20px; */
     width: 90%;
+	height: 255px;
+	border: 3px solid #cccccc;
+	padding: 5px;
 }
 .conTitle{
     margin:9px 0px 0px 0px; 
@@ -212,8 +219,11 @@ textarea{
 .subButton{
     
     background-color: #4aaaa5;
-    margin-left: -1080px;
-    margin-top: 380px;
+    /* margin-left: -1080px; */
+    /* margin-top: 380px; */
+    margin-left: 35px; 
+    margin-top: 30px;
+    margin-bottom: 30px;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -227,39 +237,20 @@ textarea{
     background-color: #ffffff;
     height: 350px;  
 }
-.folioTag{
-    background-color: #4aaaa5;
-    /* position: relative; */
-    position: absolute;
-    top: 280px;
-    left: 200px; 
-    height: 30px;
-    width: 80px;
-    margin-top: 20px;
-    color: white;
-    font-size: 10px;
 
-}
-/* .portImage{
-    /* position: absolute; */
-     /* position: relative; */
-    /* top: 130px;
-    left: 130px; 
-   padding: 5px;
-    /* margin-top: -10px; */
-    /* float: left;
-    z-index: 0;  
-} */
+
 .row {
     margin: 10px -16px;
-}
+    padding: 8px;
+    margin-left: 10px;
+} 
 
 /* Add padding BETWEEN each column */
-.row,
-.row > .column {
+div.col{
     padding: 8px;
-    margin-left: 60px;
+    margin-top:20px;
 }
+
 h5{
     font-family: "Times New Roman";
     color: white; 
@@ -269,33 +260,38 @@ h5{
 }
 .rowOne{
     background-color: #4aaaa5;
-    top: 280px;
+    top: 150px;
     width: 130px;
     position: absolute;   
 }
-.rowTwo{
+
+
+/* .rowTwo{
     background-color: #4aaaa5;
     top: 415px;
     width: 130px;
-    position: absolute;   
-}
-.rowThree{
+    position: absolute;  
+    
+} */
+/* top: 285px; */
+/* .rowThree{
     background-color: #4aaaa5;
     top: 550px;
+    
     width: 130px;
     position: absolute;   
-}
+} */
 
 /* Create three equal columns that floats next to each other */
-.column {
+/* .column {
     float: left;
     width: 25%;
-    /* display: none; Hide all elements by default */
-}
+    
+} */
 
 /* Clear floats after rows */ 
-.row:after {
+/* .row:after {
     content: "";
     display: table;
     clear: both;
-}
+} */
